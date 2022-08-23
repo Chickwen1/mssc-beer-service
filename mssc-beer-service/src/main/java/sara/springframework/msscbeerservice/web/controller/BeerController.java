@@ -7,11 +7,11 @@ import sara.springframework.msscbeerservice.web.model.BeerDto;
 
 import java.util.UUID;
 
-@RequestMapping("/api/v1/beer")
+@RequestMapping("/api/v1/beer/")
 @RestController
 public class BeerController {
 
-    @GetMapping("/{beerId")
+    @GetMapping("/{beerId}")
     public ResponseEntity<BeerDto> getBeerById(@PathVariable("beerId") UUID beerId){
 
         //todo impl
@@ -25,7 +25,7 @@ public class BeerController {
         return new ResponseEntity(HttpStatus.CREATED);
     }
 
-    @PutMapping("/{beerId")
+    @PutMapping("/{beerId}")
     public ResponseEntity updateBeerById(@PathVariable("beerId") UUID beerId, @RequestBody BeerDto beerDto){
 
         //todo impl
