@@ -1,0 +1,4 @@
+sara\springframework\msscbeerservice\web\mappers\BeerMapper.class
+sara\springframework\msscbeerservice\web\mappers\BeerMapperImpl.class
+sara\springframework\msscbeerservice\web\controller\MvcExceptionHandler.class
+sara\springframework\msscbeerservice\web\mappers\DateMapper.class
